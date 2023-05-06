@@ -1,0 +1,405 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#B2AABF">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="420dp"
+        android:layout_height="wrap_content"
+        android:background="#6681f5"
+        android:gravity="center|center_horizontal"
+        android:text="Employee Details"
+        android:textColor="#FFFFFFFF"
+        android:textStyle="bold"
+        android:textSize="20dp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="95dp"
+        android:layout_marginTop="50dp"
+        android:background="#F7F5F8">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/imageView"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            app:cardBackgroundColor="#673AB7"
+            app:cardCornerRadius="60dp">
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:src="@drawable/men">
+
+            </ImageView>
+
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:id="@+id/textview"
+            android:layout_width="120dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="30dp"
+            android:layout_toRightOf="@+id/imageView"
+            android:text="K.Sathurjan"
+            android:textColor="#000000"
+            android:textSize="20sp">
+
+        </TextView>
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/button_"
+        android:layout_width="70dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="70dp"
+        android:backgroundTint="#3247BC"
+        android:text="View"
+        android:textColor="#FFFFFF"
+        android:textSize="9dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="81dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="330dp"
+        android:layout_marginTop="70dp"
+        android:backgroundTint="#960012"
+        android:text="Remove"
+        android:textColor="#FFFFFF"
+        android:textSize="8dp" />
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="95dp"
+        android:layout_marginTop="250dp"
+        android:background="#F7F5F8">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/imageView2"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            app:cardBackgroundColor="#673AB7"
+            app:cardCornerRadius="60dp">
+
+            <ImageView
+                android:id="@+id/imageView_2"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:src="@drawable/women">
+
+            </ImageView>
+
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:id="@+id/textview1"
+            android:layout_width="120dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="30dp"
+            android:layout_toRightOf="@+id/imageView2"
+            android:text="Z.Sahla"
+            android:textColor="#000000"
+            android:textSize="20sp">
+
+        </TextView>
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="70dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="270dp"
+        android:backgroundTint="#3247BC"
+        android:text="View"
+        android:textColor="#FFFFFF"
+        android:textSize="9dp" />
+
+    <Button
+        android:id="@+id/button_2"
+        android:layout_width="81dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="330dp"
+        android:layout_marginTop="270dp"
+        android:backgroundTint="#960012"
+        android:text="Remove"
+        android:textColor="#FFFFFF"
+        android:textSize="8dp" />
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="95dp"
+        android:layout_marginTop="150dp"
+        android:background="#F7F5F8">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/imageView_"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            app:cardBackgroundColor="#673AB7"
+            app:cardCornerRadius="60dp">
+
+            <ImageView
+                android:id="@+id/imageView_1"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:src="@drawable/women">
+
+            </ImageView>
+
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:id="@+id/textview_"
+            android:layout_width="120dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="30dp"
+            android:layout_toRightOf="@+id/imageView_"
+            android:text="R.Saliha"
+            android:textColor="#000000"
+            android:textSize="20sp">
+
+        </TextView>
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="70dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="170dp"
+        android:backgroundTint="#3247BC"
+        android:text="View"
+        android:textColor="#FFFFFF"
+        android:textSize="9dp" />
+
+    <Button
+        android:id="@+id/button_1"
+        android:layout_width="81dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="330dp"
+        android:layout_marginTop="170dp"
+        android:backgroundTint="#960012"
+        android:text="Remove"
+        android:textColor="#FFFFFF"
+        android:textSize="8dp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="95dp"
+        android:layout_marginTop="450dp"
+        android:background="#F7F5F8">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/imageView4"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            app:cardBackgroundColor="#673AB7"
+            app:cardCornerRadius="60dp">
+
+            <ImageView
+                android:id="@+id/imageView_4"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:src="@drawable/men">
+
+            </ImageView>
+
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:id="@+id/textview4"
+            android:layout_width="120dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="30dp"
+            android:layout_toRightOf="@+id/imageView4"
+            android:text="A.Asry"
+            android:textColor="#000000"
+            android:textSize="20sp">
+
+        </TextView>
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="70dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="470dp"
+        android:backgroundTint="#3247BC"
+        android:text="View"
+        android:textColor="#FFFFFF"
+        android:textSize="9dp" />
+
+    <Button
+        android:id="@+id/button_4"
+        android:layout_width="81dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="330dp"
+        android:layout_marginTop="470dp"
+        android:backgroundTint="#960012"
+        android:text="Remove"
+        android:textColor="#FFFFFF"
+        android:textSize="8dp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="95dp"
+        android:layout_marginTop="350dp"
+        android:background="#F7F5F8">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/imageView3"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            app:cardBackgroundColor="#673AB7"
+            app:cardCornerRadius="60dp">
+
+            <ImageView
+                android:id="@+id/imageView_3"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:src="@drawable/men">
+
+            </ImageView>
+
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:id="@+id/textview2"
+            android:layout_width="120dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="30dp"
+            android:layout_toRightOf="@+id/imageView3"
+            android:text="M.Shazny"
+            android:textColor="#000000"
+            android:textSize="20sp">
+
+        </TextView>
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="70dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="370dp"
+        android:backgroundTint="#3247BC"
+        android:text="View"
+        android:textColor="#FFFFFF"
+        android:textSize="9dp" />
+
+    <Button
+        android:id="@+id/button_3"
+        android:layout_width="81dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="330dp"
+        android:layout_marginTop="370dp"
+        android:backgroundTint="#960012"
+        android:text="Remove"
+        android:textColor="#FFFFFF"
+        android:textSize="8dp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="95dp"
+        android:layout_marginTop="550dp"
+        android:background="#F7F5F8">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/imageView5"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            app:cardBackgroundColor="#673AB7"
+            app:cardCornerRadius="60dp">
+
+            <ImageView
+                android:id="@+id/imageView_5"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:src="@drawable/men">
+
+            </ImageView>
+
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:id="@+id/textview5"
+            android:layout_width="120dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="30dp"
+            android:layout_toRightOf="@+id/imageView5"
+            android:text="S.Mufeel"
+            android:textColor="#000000"
+            android:textSize="20sp">
+
+        </TextView>
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="70dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="570dp"
+        android:backgroundTint="#3247BC"
+        android:text="View"
+        android:textColor="#FFFFFF"
+        android:textSize="9dp" />
+
+    <Button
+        android:id="@+id/button_5"
+        android:layout_width="81dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="330dp"
+        android:layout_marginTop="570dp"
+        android:backgroundTint="#960012"
+        android:text="Remove"
+        android:textColor="#FFFFFF"
+        android:textSize="8dp" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="261dp"
+        android:layout_marginLeft="260dp"
+        android:layout_marginTop="662dp"
+        android:layout_marginEnd="3dp"
+        android:layout_marginBottom="21dp"
+        android:backgroundTint="#6681f5"
+        android:text="Next Page >>>"
+        android:textColor="#100F0F" />
+
+
+</RelativeLayout>
